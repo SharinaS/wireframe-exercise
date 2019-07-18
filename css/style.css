@@ -3,15 +3,40 @@ body {
 }
 
 header {
-    border: 1px solid gray;
     background-color: grey;
 }
 
 nav>p {
-    float: right;
-    margin: 1em;
+    margin: 35px;
+    display: inline-block;
 }
+
+nav>img {
+    /* for image in nav bar */
+} 
 
 img {
     margin: 15px;
 }
+
+#next-to-scroll-text {
+    float: left;
+    margin-left: 125px;
+    padding: 15px;
+}
+
+section>p {
+    overflow: scroll;
+    height: 400px;
+    text-align: left;
+    float: left;
+    width: 460px;
+    margin-top: 30px;
+}
+
+footer {
+    background-color: gray;
+    height: 100px;
+    clear: both;
+}
+
