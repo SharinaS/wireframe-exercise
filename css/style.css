@@ -6,17 +6,19 @@ header {
     background-color: grey;
 }
 
-nav>p {
+li{
     margin: 35px;
     display: inline-block;
+    vertical-align: middle;
 }
 
-nav>img {
-    /* for image in nav bar */
-} 
-
+ 
 img {
     margin: 15px;
+}
+
+li>img {
+    margin: 0px;
 }
 
 #next-to-scroll-text {
@@ -27,7 +29,7 @@ img {
 
 section>p {
     overflow: scroll;
-    height: 400px;
+    height: 350px;
     text-align: left;
     float: left;
     width: 460px;
@@ -40,3 +42,20 @@ footer {
     clear: both;
 }
 
+button {
+    clear: both;
+    margin: 2.4em;
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 350ms;
+}
+
+button:hover {
+  background-color: blue;
+  color: white;
+}
