@@ -20,27 +20,32 @@ li{
     vertical-align: middle;
 }
 
- 
-li>img {
-    margin: 0px;
-}
-
 /* FOOTER */
 footer {
     background-color: gray;
-    height: 200px;
-    /* clear: both; */
+    height: 150px;
 }
 
-/* BUTTON */
+/* BOTTOM PIC WITH TEXT AND BUTTON NEXT TO IT */
+li > div > p {
+    height: 350px;
+    overflow: scroll;
+    width: 400px;
+    text-align: left;
+}
+   
+section > ul > li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 15px;
+    text-align: left;
+}
+
 button {
-    clear: both;
-    margin: 2.4em;
     background-color: #ddd;
     border: none;
     color: black;
     padding: 16px 32px;
-    
     font-size: 16px;
     margin: 4px 2px;
     transition: 350ms;
@@ -50,28 +55,6 @@ button:hover {
   background-color: blue;
   color: white;
 }
-
-/* BOTTOM PIC WITH TEXT AND BUTTON NEXT TO IT */
-
-
-
-#text{
-    height: 350px;
-    overflow: scroll;
-    width: 420px;
-    text-align: left;
-    
-}
-   
-.test {
-    display: inline-block;
-    vertical-align: middle;
-    margin-top: 15px;
-    text-align: left;
-
-}
-
-
 
 
 
